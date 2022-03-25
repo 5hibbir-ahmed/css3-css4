@@ -1,0 +1,12 @@
+.wrap {
+	width: 200px;
+	height: 200px;
+	border: solid 1px;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	transform: translate(50px, 50px) rotate(45deg) scale(1.1);
+}

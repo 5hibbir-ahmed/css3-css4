@@ -1,0 +1,41 @@
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(230, 78, 103);
+	transition: width 1s, height 1s, backgorund 1s;
+}
+.box:hover {
+	width: 300px;
+	height: 300px;
+	background: red;
+}
+.second-box {
+	width: 400px;
+	height: 400px;
+	perspective: 800px;
+	margin-top: 20px;
+}
+.box-front {
+	width: 400px;
+	height: 400px;
+	background: green;
+	position: absolute;
+	transform: rotateY(0deg);
+	backface-visibility: hidden;
+	transition: transform 1s linear;
+}
+.second-box:hover .box-front {
+	transform: rotateY(-180deg);
+}
+.box-back {
+	width: 400px;
+	height: 400px;
+	background: red;
+	position: absolute;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 1s linear;
+}
+.second-box:hover .box-back {
+	transform: rotateY(0deg);
+}

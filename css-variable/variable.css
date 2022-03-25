@@ -1,0 +1,14 @@
+:root {
+	--bg-color: #ddd;
+	--font-color: purple;
+	--font-family: 'arial';
+	--padding: 20px;
+	--font-size: 1.5em;
+}
+.wrap {
+	background: var(--bg-color);
+	font-family: var(--font-family);
+	padding: var(--padding);
+	color: var(--font-color);
+	font-size: var(--font-size);
+}

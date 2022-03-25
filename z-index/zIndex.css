@@ -1,0 +1,25 @@
+.box {
+	width: 150px;
+	height: 150px;
+	color: white;
+	text-align: center;
+}
+.top {
+	background-color: grey;
+	position: fixed;
+	z-index: 1;
+}
+.center {
+	background-color: darkslategray;
+	position: fixed;
+	z-index: 3;
+	top: 80px;
+	left: 80px;
+}
+.bottom {
+	background-color: black;
+	position: fixed;
+	z-index: 2;
+	top: 40px;
+	left: 40px;
+}

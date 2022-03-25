@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.linear {
+	width: 100%;
+	height: 200px;
+	background: linear-gradient(45deg, pink, red);
+}
+.radial {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	background: radial-gradient(red 5%, yellow 70%);
+}
